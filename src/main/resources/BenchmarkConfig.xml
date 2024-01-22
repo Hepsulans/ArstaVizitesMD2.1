@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plannerBenchmark xmlns="https://timefold.ai/xsd/benchmark" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="https://timefold.ai/xsd/benchmark https://timefold.ai/xsd/benchmark/benchmark.xsd">
+    <benchmarkDirectory>local/benchmarkReport</benchmarkDirectory>
+
+    <inheritedSolverBenchmark>
+        <solver>
+            <environmentMode>REPRODUCIBLE</environmentMode>
+            <!-- Define the model -->
+            <solutionClass>org.example.domain.RoutingSolution</solutionClass>
+            <entityClass>org.example.domain.Doctor</entityClass>
+            <entityClass>org.example.domain.Visit</entityClass>
+
+            <!-- Define the score function -->
+            <scoreDirectorFactory>
+                <constraintProviderClass>org.example.solver.StreamCalculator</constraintProviderClass>
+            </scoreDirectorFactory>
+
+            <!-- Configure the optimization algorithms (optional) -->
+            <termination>
+                <secondsSpentLimit>5</secondsSpentLimit>
+            </termination>
+
+            <constructionHeuristic />
+        </solver>
+        <problemBenchmarks> <!-- SEIT JALIEK DATI KURUS GRIB IZMANTOT PRIEKS BENCHMARK -->
+            <solutionFileIOClass>org.example.domain.RoutingSolutionJsonIO</solutionFileIOClass>
+            <writeOutputSolutionEnabled>true</writeOutputSolutionEnabled>
+            <!--<inputSolutionFile>data/classExample5.json</inputSolutionFile>
+            <inputSolutionFile>data/classExample10.json</inputSolutionFile>
+            <inputSolutionFile>data/classExample25.json</inputSolutionFile>
+            <inputSolutionFile>data/classExample50.json</inputSolutionFile> -->
+            <inputSolutionFile>data/classExample250.json</inputSolutionFile>
+            <!--<inputSolutionFile>data/example50.json</inputSolutionFile>
+            <inputSolutionFile>data/example100.json</inputSolutionFile>
+             <inputSolutionFile>data/example150.json</inputSolutionFile>-->
+        </problemBenchmarks>
+        <!--<subSingleCount>5</subSingleCount>-->
+    </inheritedSolverBenchmark>
+
+    <!-- Solveru konfigurācijas daļa. Šeit var konfigurēt un pievienot solverus kurus gribesim salidzinat. -->
+    <solverBenchmark> <!-- Best so far -->
+        <name>Tabu 5 500</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <valueTabuSize>5</valueTabuSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>500</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <!--
+    <solverBenchmark>
+        <name>Tabu 10 1000</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <valueTabuSize>10</valueTabuSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>1000</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    -->
+    <solverBenchmark> <!-- One of the worst with 400. Changed to 20 to see if there is a difference -->
+        <name>LAHC 5</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <lateAcceptanceSize>2</lateAcceptanceSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>1</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <!--
+    <solverBenchmark>
+        <name>Tabu 2 200</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <valueTabuSize>2</valueTabuSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>200</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    <solverBenchmark>
+        <name>Tabu 2 10</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <valueTabuSize>2</valueTabuSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>10</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+    -->
+
+    <solverBenchmark> <!-- Best so far -->
+        <name>Tabu 3 300</name>
+        <solver>
+            <localSearch>
+                <unionMoveSelector>
+                    <subListChangeMoveSelector />
+                    <listChangeMoveSelector />
+                    <listSwapMoveSelector />
+                </unionMoveSelector>
+                <acceptor>
+                    <valueTabuSize>3</valueTabuSize>
+                </acceptor>
+                <forager>
+                    <acceptedCountLimit>300</acceptedCountLimit>
+                </forager>
+            </localSearch>
+        </solver>
+    </solverBenchmark>
+
+</plannerBenchmark>

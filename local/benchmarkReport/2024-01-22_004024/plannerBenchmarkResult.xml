@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><plannerBenchmarkResult>
+  <name>2024-01-22_004024</name>
+  <aggregation>false</aggregation>
+  <availableProcessors>12</availableProcessors>
+  <loggingLevelTimefoldSolverCore>DEBUG</loggingLevelTimefoldSolverCore>
+  <maxMemory>3720347648</maxMemory>
+  <timefoldSolverVersion>Community Edition v1.6.0</timefoldSolverVersion>
+  <javaVersion>Java 21.0.2 (Oracle Corporation)</javaVersion>
+  <javaVM>Java Java HotSpot(TM) 64-Bit Server VM 21.0.2+13-LTS-58 (Oracle Corporation)</javaVM>
+  <operatingSystem>Windows 11 amd64 10.0</operatingSystem>
+  <parallelBenchmarkCount>1</parallelBenchmarkCount>
+  <warmUpTimeMillisSpentLimit>30</warmUpTimeMillisSpentLimit>
+  <solverBenchmarkResult>
+    <name>Config_0</name>
+    <subSingleCount>1</subSingleCount>
+    <solverConfig>
+      <environmentMode>FULL_ASSERT</environmentMode>
+      <monitoring>
+        <metric>BEST_SCORE</metric>
+      </monitoring>
+      <solutionClass>org.example.domain.RoutingSolution</solutionClass>
+      <entityClass>org.example.domain.Doctor</entityClass>
+      <entityClass>org.example.domain.Visit</entityClass>
+      <scoreDirectorFactory>
+        <constraintProviderClass>org.example.solver.StreamCalculator</constraintProviderClass>
+      </scoreDirectorFactory>
+      <termination>
+        <secondsSpentLimit>5</secondsSpentLimit>
+      </termination>
+      <constructionHeuristic/>
+      <localSearch>
+        <acceptor>
+          <valueTabuSize>2</valueTabuSize>
+        </acceptor>
+        <forager>
+          <acceptedCountLimit>10</acceptedCountLimit>
+        </forager>
+      </localSearch>
+    </solverConfig>
+    <singleBenchmarkResult id="1">
+      <subSingleBenchmarkResult>
+        <subSingleBenchmarkIndex>0</subSingleBenchmarkIndex>
+        <usedMemoryAfterInputSolution>7081904</usedMemoryAfterInputSolution>
+        <succeeded>true</succeeded>
+        <score class="ai.timefold.solver.core.api.score.buildin.hardsoft.HardSoftScore">0hard/-47592soft</score>
+        <timeMillisSpent>5000</timeMillisSpent>
+        <scoreCalculationCount>77156</scoreCalculationCount>
+        <scoreExplanationSummary>Explanation of score (0hard/-47592soft):
+    Constraint matches:
+        -18000soft: constraint (visit2visit) has 4 matches:
+            -6000soft: justified with ([Klients4 arrT=11:15:00 depT=11:25:00, AA0000])
+            -4000soft: justified with ([Klients2 arrT=12:40:00 depT=12:50:00, BB1111])
+            ...
+        -14092soft: constraint (worktimeCost) has 2 matches:
+            -9250soft: justified with ([BB1111, Klients1 arrT=14:50:00 depT=15:00:00])
+            -4842soft: justified with ([AA0000, Slimniica2 arrT=14:25:00 depT=14:40:00])
+        -6000soft: constraint (depot2visit) has 2 matches:
+            -6000soft: justified with ([Klients4 arrT=11:15:00 depT=11:25:00, AA0000])
+            0: justified with ([Slimniica1 arrT=08:15:00 depT=08:30:00, BB1111])
+        -5500soft: constraint (vehicleUsage) has 2 matches:
+            -3000soft: justified with ([AA0000])
+            -2500soft: justified with ([BB1111])
+        -4000soft: constraint (visit2depot) has 2 matches:
+            -4000soft: justified with ([Klients1 arrT=14:50:00 depT=15:00:00, BB1111])
+            0: justified with ([Slimniica2 arrT=14:25:00 depT=14:40:00, AA0000])
+        0: constraint (QualificationMissedBy) has 2 matches:
+            0: justified with ([AA0000])
+            0: justified with ([BB1111])
+        0: constraint (capacityOverflow) has 0 matches:
+        0: constraint (notEnoughGoods) has 0 matches:
+        0: constraint (pickedNotInStock) has 0 matches:
+        0: constraint (powerMissedBy) has 2 matches:
+            0: justified with ([AA0000])
+            0: justified with ([BB1111])
+        0: constraint (returnOutsideTw) has 0 matches:
+        0: constraint (vehicleOutsideTw) has 0 matches:
+        0: constraint (visitOutsideTw) has 0 matches:
+        0: constraint (worktimeOverflow) has 0 matches:
+    Indictments (top 5 of 8):
+        -27750soft: indicted with (BB1111) has 9 matches:
+            -9250soft: constraint (worktimeCost)
+            -4000soft: constraint (visit2depot)
+            ...
+        -19842soft: indicted with (AA0000) has 7 matches:
+            -6000soft: constraint (depot2visit)
+            -6000soft: constraint (visit2visit)
+            ...
+        -13250soft: indicted with (Klients1 arrT=14:50:00 depT=15:00:00) has 2 matches:
+            -9250soft: constraint (worktimeCost)
+            -4000soft: constraint (visit2depot)
+        -12000soft: indicted with (Klients4 arrT=11:15:00 depT=11:25:00) has 2 matches:
+            -6000soft: constraint (depot2visit)
+            -6000soft: constraint (visit2visit)
+        -4842soft: indicted with (Slimniica2 arrT=14:25:00 depT=14:40:00) has 2 matches:
+            -4842soft: constraint (worktimeCost)
+            0: constraint (visit2depot)
+        ...
+</scoreExplanationSummary>
+      </subSingleBenchmarkResult>
+      <timeMillisSpent>-1</timeMillisSpent>
+      <scoreCalculationCount>-1</scoreCalculationCount>
+    </singleBenchmarkResult>
+  </solverBenchmarkResult>
+  <unifiedProblemBenchmarkResult>
+    <name>Problem_0</name>
+    <instanceProblemProvider/>
+    <writeOutputSolutionEnabled>false</writeOutputSolutionEnabled>
+    <bestScoreProblemStatistic>
+      <problemStatisticType>BEST_SCORE</problemStatisticType>
+    </bestScoreProblemStatistic>
+    <singleBenchmarkResult>1</singleBenchmarkResult>
+    <entityCount>2</entityCount>
+    <variableCount>2</variableCount>
+    <maximumValueCount>6</maximumValueCount>
+    <problemScale>48</problemScale>
+    <inputSolutionLoadingTimeMillisSpent>1</inputSolutionLoadingTimeMillisSpent>
+  </unifiedProblemBenchmarkResult>
+  <startingTimestamp>2024-01-22T00:40:24.2491424+02:00</startingTimestamp>
+  <benchmarkTimeMillisSpent>5329</benchmarkTimeMillisSpent>
+</plannerBenchmarkResult>

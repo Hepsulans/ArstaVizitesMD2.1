@@ -1,0 +1,2912 @@
+{
+  "solutionId" : "4",
+  "score" : "0hard/-68585soft",
+  "doctorList" : [ {
+    "regNrAuto" : "AA1",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 498,
+    "visits" : [ "Client13", "Client37", "Client91", "Client41", "Client17", "Client27", "Client34", "Client86", "Client88", "Client22", "Client18", "Client56", "Client46", "Client48", "Client45", "Client93", "Client20", "Client90", "Stock1:1", "Client2", "Client4", "Stock1:8", "Stock1:2" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNrAuto" : "AA2",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 522,
+    "visits" : [ "Stock3:1", "Stock2:10", "Stock2:9", "Stock2:8", "Stock2:3", "Stock2:2", "Stock2:1", "Client3", "Client8", "Client10", "Client1", "Client7", "Stock1:10", "Stock1:9", "Stock3:8", "Client9", "Client5", "Client6", "Client69", "Stock1:7", "Stock1:6", "Stock1:5", "Stock1:4" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNrAuto" : "AA3",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 450,
+    "visits" : [ "Client16", "Client32", "Client24", "Client15", "Client29", "Client12", "Client19", "Client72", "Client21", "Client40", "Client14", "Client39", "Client26", "Client71", "Client76", "Client94", "Client99", "Client53", "Client52", "Stock2:5", "Stock2:6", "Stock2:7", "Stock1:3" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNrAuto" : "AA4",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 449,
+    "visits" : [ "Client65", "Client44", "Client54", "Client83", "Client78", "Client82", "Client63", "Client49", "Client66", "Client75", "Client74", "Client67", "Client62", "Client60", "Client79", "Client98", "Client73", "Client51", "Client43", "Client95", "Client36", "Client77", "Client68", "Client25", "Client81", "Client23", "Client11", "Stock2:4" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNrAuto" : "AA5",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 499,
+    "visits" : [ "Client87", "Client80", "Client100", "Client92", "Client55", "Client35", "Client96", "Client70", "Client47", "Client31", "Client64", "Client42", "Client58", "Client30", "Client28", "Client57", "Client89", "Client61", "Client84", "Client85", "Client50", "Client97", "Client59", "Client33", "Client38", "Stock3:4" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  }, {
+    "regNrAuto" : "AA6",
+    "docSpeciality" : 5,
+    "docPower" : 5,
+    "capacity" : 467,
+    "visits" : [ "Stock3:10", "Stock3:9", "Stock3:6", "Stock3:5", "Stock3:3", "Stock3:2", "Stock3:7" ],
+    "depot" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "twStart" : 28800,
+    "twFinish" : 57600,
+    "srvSTime" : 900,
+    "srvFTime" : 900,
+    "maxWorkTime" : 28800,
+    "costWorkTime" : 7.0,
+    "costDistance" : 0.1,
+    "costUsage" : 30.0
+  } ],
+  "visitList" : [ {
+    "name" : "Client1",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 80.15624602813566,
+      "lon" : 15.748941478773048
+    },
+    "doctor" : "AA2",
+    "next" : "Client7",
+    "prev" : "Client10",
+    "volumeUndelivered" : 122,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 34673,
+    "twFinish" : 53192,
+    "arrivalTime" : 41870
+  }, {
+    "name" : "Client2",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 1.5623354254961974,
+      "lon" : 29.36782711888497
+    },
+    "doctor" : "AA1",
+    "next" : "Client4",
+    "prev" : "Stock1:1",
+    "volumeUndelivered" : 398,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 29211,
+    "twFinish" : 55362,
+    "arrivalTime" : 49881
+  }, {
+    "name" : "Client3",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 23.85984597425538,
+      "lon" : 70.18066762155922
+    },
+    "doctor" : "AA2",
+    "next" : "Client8",
+    "prev" : "Stock2:1",
+    "volumeUndelivered" : 422,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 33931,
+    "twFinish" : 51509,
+    "arrivalTime" : 37334
+  }, {
+    "name" : "Client4",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 2,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 18.609737436440422,
+      "lon" : 60.32451229445949
+    },
+    "doctor" : "AA1",
+    "next" : "Stock1:8",
+    "prev" : "Client2",
+    "volumeUndelivered" : 298,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 30150,
+    "twFinish" : 53904,
+    "arrivalTime" : 51117
+  }, {
+    "name" : "Client5",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 4,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 21.15354047573558,
+      "lon" : 19.612754688934398
+    },
+    "doctor" : "AA2",
+    "next" : "Client6",
+    "prev" : "Client9",
+    "volumeUndelivered" : 322,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 31857,
+    "twFinish" : 52839,
+    "arrivalTime" : 48541
+  }, {
+    "name" : "Client6",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 2,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 33.09474294168401,
+      "lon" : 47.19488339741409
+    },
+    "doctor" : "AA2",
+    "next" : "Client69",
+    "prev" : "Client5",
+    "volumeUndelivered" : 222,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 34550,
+    "twFinish" : 55253,
+    "arrivalTime" : 49682
+  }, {
+    "name" : "Client7",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 15.554823743477375,
+      "lon" : 17.609181010657217
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:10",
+    "prev" : "Client1",
+    "volumeUndelivered" : 22,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 30911,
+    "twFinish" : 51035,
+    "arrivalTime" : 43633
+  }, {
+    "name" : "Client8",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 99.84268647304835,
+      "lon" : 83.61422729324792
+    },
+    "doctor" : "AA2",
+    "next" : "Client10",
+    "prev" : "Client3",
+    "volumeUndelivered" : 322,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 30617,
+    "twFinish" : 51647,
+    "arrivalTime" : 39323
+  }, {
+    "name" : "Client9",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 2,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 0.08649748157002479,
+      "lon" : 8.751498415943837
+    },
+    "doctor" : "AA2",
+    "next" : "Client5",
+    "prev" : "Stock3:8",
+    "volumeUndelivered" : 422,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 35027,
+    "twFinish" : 55471,
+    "arrivalTime" : 47514
+  }, {
+    "name" : "Client10",
+    "visitType" : "DELIVERY",
+    "volume" : 100,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 98.41198696018371,
+      "lon" : 36.28271521817316
+    },
+    "doctor" : "AA2",
+    "next" : "Client1",
+    "prev" : "Client8",
+    "volumeUndelivered" : 222,
+    "volumePicked" : 0,
+    "srvTime" : 600,
+    "twStart" : 32220,
+    "twFinish" : 51708,
+    "arrivalTime" : 40775
+  }, {
+    "name" : "Client11",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 87.41149925385179,
+      "lon" : 37.96203940559686
+    },
+    "doctor" : "AA4",
+    "next" : "Stock2:4",
+    "prev" : "Client23",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 27,
+    "srvTime" : 600,
+    "twStart" : 35559,
+    "twFinish" : 56032,
+    "arrivalTime" : 51792
+  }, {
+    "name" : "Client12",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 96.93321192576646,
+      "lon" : 76.04460277492629
+    },
+    "doctor" : "AA3",
+    "next" : "Client19",
+    "prev" : "Client29",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 6,
+    "srvTime" : 600,
+    "twStart" : 35018,
+    "twFinish" : 51545,
+    "arrivalTime" : 37079
+  }, {
+    "name" : "Client13",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 2.6300877869783412,
+      "lon" : 54.999258487156034
+    },
+    "doctor" : "AA1",
+    "next" : "Client37",
+    "prev" : null,
+    "volumeUndelivered" : 0,
+    "volumePicked" : 1,
+    "srvTime" : 600,
+    "twStart" : 29434,
+    "twFinish" : 53772,
+    "arrivalTime" : 30691
+  }, {
+    "name" : "Client14",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 12.243298093239552,
+      "lon" : 35.58486508103638
+    },
+    "doctor" : "AA3",
+    "next" : "Client39",
+    "prev" : "Client40",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 11,
+    "srvTime" : 600,
+    "twStart" : 35056,
+    "twFinish" : 50915,
+    "arrivalTime" : 41984
+  }, {
+    "name" : "Client15",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 52.25500474429923,
+      "lon" : 33.2658086274861
+    },
+    "doctor" : "AA3",
+    "next" : "Client29",
+    "prev" : "Client24",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 4,
+    "srvTime" : 600,
+    "twStart" : 34726,
+    "twFinish" : 52880,
+    "arrivalTime" : 34359
+  }, {
+    "name" : "Client16",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 32.33055334306783,
+      "lon" : 25.383873425636207
+    },
+    "doctor" : "AA3",
+    "next" : "Client32",
+    "prev" : null,
+    "volumeUndelivered" : 0,
+    "volumePicked" : 1,
+    "srvTime" : 600,
+    "twStart" : 29498,
+    "twFinish" : 54697,
+    "arrivalTime" : 30440
+  }, {
+    "name" : "Client17",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 47.880244798300964,
+      "lon" : 47.06998842241682
+    },
+    "doctor" : "AA1",
+    "next" : "Client27",
+    "prev" : "Client41",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 5,
+    "srvTime" : 600,
+    "twStart" : 32842,
+    "twFinish" : 51562,
+    "arrivalTime" : 34900
+  }, {
+    "name" : "Client18",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 92.1060951283312,
+      "lon" : 64.57076635703167
+    },
+    "doctor" : "AA1",
+    "next" : "Client56",
+    "prev" : "Client22",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 11,
+    "srvTime" : 600,
+    "twStart" : 34742,
+    "twFinish" : 52311,
+    "arrivalTime" : 40758
+  }, {
+    "name" : "Client19",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 88.05904385016271,
+      "lon" : 76.48118403465021
+    },
+    "doctor" : "AA3",
+    "next" : "Client72",
+    "prev" : "Client12",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 7,
+    "srvTime" : 600,
+    "twStart" : 31969,
+    "twFinish" : 52951,
+    "arrivalTime" : 37839
+  }, {
+    "name" : "Client20",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 18.517312287666332,
+      "lon" : 8.316122302173412
+    },
+    "doctor" : "AA1",
+    "next" : "Client90",
+    "prev" : "Client93",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 17,
+    "srvTime" : 600,
+    "twStart" : 34896,
+    "twFinish" : 55419,
+    "arrivalTime" : 46801
+  }, {
+    "name" : "Client21",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 26.906729890170155,
+      "lon" : 33.919934794027775
+    },
+    "doctor" : "AA3",
+    "next" : "Client40",
+    "prev" : "Client72",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 9,
+    "srvTime" : 600,
+    "twStart" : 34952,
+    "twFinish" : 53493,
+    "arrivalTime" : 40386
+  }, {
+    "name" : "Client22",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 86.0189986608569,
+      "lon" : 78.40456801379415
+    },
+    "doctor" : "AA1",
+    "next" : "Client18",
+    "prev" : "Client88",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 10,
+    "srvTime" : 600,
+    "twStart" : 32787,
+    "twFinish" : 51938,
+    "arrivalTime" : 39886
+  }, {
+    "name" : "Client23",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 82.94405156293983,
+      "lon" : 31.62323086515315
+    },
+    "doctor" : "AA4",
+    "next" : "Client11",
+    "prev" : "Client81",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 26,
+    "srvTime" : 600,
+    "twStart" : 32475,
+    "twFinish" : 55458,
+    "arrivalTime" : 51052
+  }, {
+    "name" : "Client24",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 48.41778195292843,
+      "lon" : 28.62793069141416
+    },
+    "doctor" : "AA3",
+    "next" : "Client15",
+    "prev" : "Client32",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 3,
+    "srvTime" : 600,
+    "twStart" : 32301,
+    "twFinish" : 56795,
+    "arrivalTime" : 33651
+  }, {
+    "name" : "Client25",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 66.69660583439978,
+      "lon" : 34.12569199303081
+    },
+    "doctor" : "AA4",
+    "next" : "Client81",
+    "prev" : "Client68",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 24,
+    "srvTime" : 600,
+    "twStart" : 33720,
+    "twFinish" : 53274,
+    "arrivalTime" : 49379
+  }, {
+    "name" : "Client26",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 38.105461234318895,
+      "lon" : 1.6395941490104593
+    },
+    "doctor" : "AA3",
+    "next" : "Client71",
+    "prev" : "Client39",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 13,
+    "srvTime" : 600,
+    "twStart" : 29867,
+    "twFinish" : 57394,
+    "arrivalTime" : 43985
+  }, {
+    "name" : "Client27",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 30.565998450930053,
+      "lon" : 64.89724243723887
+    },
+    "doctor" : "AA1",
+    "next" : "Client34",
+    "prev" : "Client17",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 6,
+    "srvTime" : 600,
+    "twStart" : 33977,
+    "twFinish" : 55483,
+    "arrivalTime" : 35947
+  }, {
+    "name" : "Client28",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 48.69689216920003,
+      "lon" : 58.91064228863574
+    },
+    "doctor" : "AA5",
+    "next" : "Client57",
+    "prev" : "Client30",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 15,
+    "srvTime" : 600,
+    "twStart" : 35224,
+    "twFinish" : 56149,
+    "arrivalTime" : 45466
+  }, {
+    "name" : "Client29",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 69.48835188208682,
+      "lon" : 61.27788416663845
+    },
+    "doctor" : "AA3",
+    "next" : "Client12",
+    "prev" : "Client15",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 5,
+    "srvTime" : 600,
+    "twStart" : 33149,
+    "twFinish" : 52739,
+    "arrivalTime" : 35918
+  }, {
+    "name" : "Client30",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 42.08803708481117,
+      "lon" : 90.42843460656384
+    },
+    "doctor" : "AA5",
+    "next" : "Client28",
+    "prev" : "Client58",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 14,
+    "srvTime" : 600,
+    "twStart" : 28929,
+    "twFinish" : 56241,
+    "arrivalTime" : 44286
+  }, {
+    "name" : "Client31",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 25.89580412306801,
+      "lon" : 96.85023930449262
+    },
+    "doctor" : "AA5",
+    "next" : "Client64",
+    "prev" : "Client47",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 10,
+    "srvTime" : 600,
+    "twStart" : 35839,
+    "twFinish" : 51344,
+    "arrivalTime" : 41524
+  }, {
+    "name" : "Client32",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 45.94979438696455,
+      "lon" : 35.77825734095048
+    },
+    "doctor" : "AA3",
+    "next" : "Client24",
+    "prev" : "Client16",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 2,
+    "srvTime" : 600,
+    "twStart" : 32915,
+    "twFinish" : 52853,
+    "arrivalTime" : 31348
+  }, {
+    "name" : "Client33",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 77.49658995154437,
+      "lon" : 15.390451230010028
+    },
+    "doctor" : "AA5",
+    "next" : "Client38",
+    "prev" : "Client59",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 24,
+    "srvTime" : 600,
+    "twStart" : 29339,
+    "twFinish" : 57438,
+    "arrivalTime" : 52557
+  }, {
+    "name" : "Client34",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 32.673266902893126,
+      "lon" : 73.24863761811524
+    },
+    "doctor" : "AA1",
+    "next" : "Client86",
+    "prev" : "Client27",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 7,
+    "srvTime" : 600,
+    "twStart" : 30330,
+    "twFinish" : 50861,
+    "arrivalTime" : 36702
+  }, {
+    "name" : "Client35",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 11.38938154262693,
+      "lon" : 45.53807285787701
+    },
+    "doctor" : "AA5",
+    "next" : "Client96",
+    "prev" : "Client55",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 6,
+    "srvTime" : 600,
+    "twStart" : 33808,
+    "twFinish" : 54155,
+    "arrivalTime" : 37612
+  }, {
+    "name" : "Client36",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 95.78204863887112,
+      "lon" : 58.60096644160805
+    },
+    "doctor" : "AA4",
+    "next" : "Client77",
+    "prev" : "Client95",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 21,
+    "srvTime" : 600,
+    "twStart" : 29890,
+    "twFinish" : 55719,
+    "arrivalTime" : 46816
+  }, {
+    "name" : "Client37",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 13.027443528749483,
+      "lon" : 90.32559185149603
+    },
+    "doctor" : "AA1",
+    "next" : "Client91",
+    "prev" : "Client13",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 2,
+    "srvTime" : 600,
+    "twStart" : 29592,
+    "twFinish" : 53493,
+    "arrivalTime" : 31954
+  }, {
+    "name" : "Client38",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 64.82719176895264,
+      "lon" : 20.144058859359117
+    },
+    "doctor" : "AA5",
+    "next" : "Stock3:4",
+    "prev" : "Client33",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 25,
+    "srvTime" : 600,
+    "twStart" : 29721,
+    "twFinish" : 56081,
+    "arrivalTime" : 53401
+  }, {
+    "name" : "Client39",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 23.54830548526928,
+      "lon" : 10.708174352836453
+    },
+    "doctor" : "AA3",
+    "next" : "Client26",
+    "prev" : "Client14",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 12,
+    "srvTime" : 600,
+    "twStart" : 32944,
+    "twFinish" : 53946,
+    "arrivalTime" : 43076
+  }, {
+    "name" : "Client40",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 24.780457929174414,
+      "lon" : 41.75427554639208
+    },
+    "doctor" : "AA3",
+    "next" : "Client14",
+    "prev" : "Client21",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 10,
+    "srvTime" : 600,
+    "twStart" : 30314,
+    "twFinish" : 52151,
+    "arrivalTime" : 41132
+  }, {
+    "name" : "Client41",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 43.98451363408707,
+      "lon" : 47.23430604188002
+    },
+    "doctor" : "AA1",
+    "next" : "Client17",
+    "prev" : "Client91",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 4,
+    "srvTime" : 600,
+    "twStart" : 34133,
+    "twFinish" : 50998,
+    "arrivalTime" : 34230
+  }, {
+    "name" : "Client42",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 30.941486576303657,
+      "lon" : 90.48180955148322
+    },
+    "doctor" : "AA5",
+    "next" : "Client58",
+    "prev" : "Client64",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 12,
+    "srvTime" : 600,
+    "twStart" : 30210,
+    "twFinish" : 52489,
+    "arrivalTime" : 42884
+  }, {
+    "name" : "Client43",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 89.8711133370836,
+      "lon" : 48.997908383276425
+    },
+    "doctor" : "AA4",
+    "next" : "Client95",
+    "prev" : "Client51",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 19,
+    "srvTime" : 600,
+    "twStart" : 28836,
+    "twFinish" : 53832,
+    "arrivalTime" : 45405
+  }, {
+    "name" : "Client44",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 35.37451205262537,
+      "lon" : 70.38379448274303
+    },
+    "doctor" : "AA4",
+    "next" : "Client54",
+    "prev" : "Client65",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 2,
+    "srvTime" : 600,
+    "twStart" : 29838,
+    "twFinish" : 52274,
+    "arrivalTime" : 31757
+  }, {
+    "name" : "Client45",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 24.765493462073195,
+      "lon" : 4.012578325811267
+    },
+    "doctor" : "AA1",
+    "next" : "Client93",
+    "prev" : "Client48",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 15,
+    "srvTime" : 600,
+    "twStart" : 35449,
+    "twFinish" : 57004,
+    "arrivalTime" : 45282
+  }, {
+    "name" : "Client46",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 65.89023156846973,
+      "lon" : 9.224840115677313
+    },
+    "doctor" : "AA1",
+    "next" : "Client48",
+    "prev" : "Client56",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 13,
+    "srvTime" : 600,
+    "twStart" : 35451,
+    "twFinish" : 57121,
+    "arrivalTime" : 43217
+  }, {
+    "name" : "Client47",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 26.19520917534286,
+      "lon" : 90.14857327072706
+    },
+    "doctor" : "AA5",
+    "next" : "Client31",
+    "prev" : "Client70",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 9,
+    "srvTime" : 600,
+    "twStart" : 33263,
+    "twFinish" : 52705,
+    "arrivalTime" : 40803
+  }, {
+    "name" : "Client48",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 23.58847437042513,
+      "lon" : 9.685622641439728
+    },
+    "doctor" : "AA1",
+    "next" : "Client45",
+    "prev" : "Client46",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 14,
+    "srvTime" : 600,
+    "twStart" : 34483,
+    "twFinish" : 52258,
+    "arrivalTime" : 44578
+  }, {
+    "name" : "Client49",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 62.54939710714197,
+      "lon" : 90.77317094804795
+    },
+    "doctor" : "AA4",
+    "next" : "Client66",
+    "prev" : "Client63",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 8,
+    "srvTime" : 600,
+    "twStart" : 35717,
+    "twFinish" : 51939,
+    "arrivalTime" : 36257
+  }, {
+    "name" : "Client50",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 89.97728995315704,
+      "lon" : 21.720157145516595
+    },
+    "doctor" : "AA5",
+    "next" : "Client97",
+    "prev" : "Client85",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 21,
+    "srvTime" : 600,
+    "twStart" : 31173,
+    "twFinish" : 51781,
+    "arrivalTime" : 50171
+  }, {
+    "name" : "Client51",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 84.42942403110699,
+      "lon" : 44.23500888061399
+    },
+    "doctor" : "AA4",
+    "next" : "Client43",
+    "prev" : "Client73",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 18,
+    "srvTime" : 600,
+    "twStart" : 33207,
+    "twFinish" : 55728,
+    "arrivalTime" : 44675
+  }, {
+    "name" : "Client52",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 59.68406758481696,
+      "lon" : 17.70237431914945
+    },
+    "doctor" : "AA3",
+    "next" : "Stock2:5",
+    "prev" : "Client53",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 19,
+    "srvTime" : 600,
+    "twStart" : 33597,
+    "twFinish" : 54197,
+    "arrivalTime" : 48503
+  }, {
+    "name" : "Client53",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 58.9744075909025,
+      "lon" : 21.333057661890997
+    },
+    "doctor" : "AA3",
+    "next" : "Client52",
+    "prev" : "Client99",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 18,
+    "srvTime" : 600,
+    "twStart" : 32928,
+    "twFinish" : 51271,
+    "arrivalTime" : 47836
+  }, {
+    "name" : "Client54",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 39.774328100761736,
+      "lon" : 77.0026416597234
+    },
+    "doctor" : "AA4",
+    "next" : "Client83",
+    "prev" : "Client44",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 3,
+    "srvTime" : 600,
+    "twStart" : 32359,
+    "twFinish" : 55201,
+    "arrivalTime" : 32500
+  }, {
+    "name" : "Client55",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 0.6771749641985902,
+      "lon" : 49.91083198220399
+    },
+    "doctor" : "AA5",
+    "next" : "Client35",
+    "prev" : "Client92",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 5,
+    "srvTime" : 600,
+    "twStart" : 34525,
+    "twFinish" : 56868,
+    "arrivalTime" : 36804
+  }, {
+    "name" : "Client56",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 81.69380694108985,
+      "lon" : 11.63482061504607
+    },
+    "doctor" : "AA1",
+    "next" : "Client46",
+    "prev" : "Client18",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 12,
+    "srvTime" : 600,
+    "twStart" : 30991,
+    "twFinish" : 51766,
+    "arrivalTime" : 42329
+  }, {
+    "name" : "Client57",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 77.20637175801401,
+      "lon" : 30.71647351289286
+    },
+    "doctor" : "AA5",
+    "next" : "Client89",
+    "prev" : "Client28",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 16,
+    "srvTime" : 600,
+    "twStart" : 31883,
+    "twFinish" : 53700,
+    "arrivalTime" : 46788
+  }, {
+    "name" : "Client58",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 36.849447780031255,
+      "lon" : 89.61452153442912
+    },
+    "doctor" : "AA5",
+    "next" : "Client30",
+    "prev" : "Client42",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 13,
+    "srvTime" : 600,
+    "twStart" : 31171,
+    "twFinish" : 54753,
+    "arrivalTime" : 43591
+  }, {
+    "name" : "Client59",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 93.7502609485131,
+      "lon" : 13.669316288560529
+    },
+    "doctor" : "AA5",
+    "next" : "Client33",
+    "prev" : "Client97",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 23,
+    "srvTime" : 600,
+    "twStart" : 35399,
+    "twFinish" : 53670,
+    "arrivalTime" : 51663
+  }, {
+    "name" : "Client60",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 51.844947329381256,
+      "lon" : 37.66915905736777
+    },
+    "doctor" : "AA4",
+    "next" : "Client79",
+    "prev" : "Client62",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 14,
+    "srvTime" : 600,
+    "twStart" : 32910,
+    "twFinish" : 52529,
+    "arrivalTime" : 41649
+  }, {
+    "name" : "Client61",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 84.39790106248586,
+      "lon" : 28.673591793712095
+    },
+    "doctor" : "AA5",
+    "next" : "Client84",
+    "prev" : "Client89",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 18,
+    "srvTime" : 600,
+    "twStart" : 35533,
+    "twFinish" : 56390,
+    "arrivalTime" : 48123
+  }, {
+    "name" : "Client62",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 44.38645501779547,
+      "lon" : 29.94044372569845
+    },
+    "doctor" : "AA4",
+    "next" : "Client60",
+    "prev" : "Client67",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 13,
+    "srvTime" : 600,
+    "twStart" : 34045,
+    "twFinish" : 56785,
+    "arrivalTime" : 40856
+  }, {
+    "name" : "Client63",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 64.07328439179254,
+      "lon" : 90.11985980703929
+    },
+    "doctor" : "AA4",
+    "next" : "Client49",
+    "prev" : "Client82",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 7,
+    "srvTime" : 600,
+    "twStart" : 34457,
+    "twFinish" : 52707,
+    "arrivalTime" : 35627
+  }, {
+    "name" : "Client64",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 25.874065892962538,
+      "lon" : 94.31991617532033
+    },
+    "doctor" : "AA5",
+    "next" : "Client42",
+    "prev" : "Client31",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 11,
+    "srvTime" : 600,
+    "twStart" : 33181,
+    "twFinish" : 54385,
+    "arrivalTime" : 42170
+  }, {
+    "name" : "Client65",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 19.538098360970125,
+      "lon" : 19.214824444823275
+    },
+    "doctor" : "AA4",
+    "next" : "Client44",
+    "prev" : null,
+    "volumeUndelivered" : 0,
+    "volumePicked" : 1,
+    "srvTime" : 600,
+    "twStart" : 30056,
+    "twFinish" : 54138,
+    "arrivalTime" : 30193
+  }, {
+    "name" : "Client66",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 61.694740995851745,
+      "lon" : 93.05818726050875
+    },
+    "doctor" : "AA4",
+    "next" : "Client75",
+    "prev" : "Client49",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 9,
+    "srvTime" : 600,
+    "twStart" : 32570,
+    "twFinish" : 50942,
+    "arrivalTime" : 36901
+  }, {
+    "name" : "Client67",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 42.97869158434007,
+      "lon" : 53.28012071165138
+    },
+    "doctor" : "AA4",
+    "next" : "Client62",
+    "prev" : "Client74",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 12,
+    "srvTime" : 600,
+    "twStart" : 31766,
+    "twFinish" : 56455,
+    "arrivalTime" : 39835
+  }, {
+    "name" : "Client68",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 85.23224959562685,
+      "lon" : 59.2884614096424
+    },
+    "doctor" : "AA4",
+    "next" : "Client25",
+    "prev" : "Client77",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 23,
+    "srvTime" : 600,
+    "twStart" : 35041,
+    "twFinish" : 50820,
+    "arrivalTime" : 48216
+  }, {
+    "name" : "Client69",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 36.69291741856927,
+      "lon" : 36.16074962637279
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:7",
+    "prev" : "Client6",
+    "volumeUndelivered" : 222,
+    "volumePicked" : 1,
+    "srvTime" : 600,
+    "twStart" : 31168,
+    "twFinish" : 51370,
+    "arrivalTime" : 50491
+  }, {
+    "name" : "Client70",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 6.609798081803808,
+      "lon" : 96.10499985984944
+    },
+    "doctor" : "AA5",
+    "next" : "Client47",
+    "prev" : "Client96",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 8,
+    "srvTime" : 600,
+    "twStart" : 29853,
+    "twFinish" : 54354,
+    "arrivalTime" : 39835
+  }, {
+    "name" : "Client71",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 42.39244176243043,
+      "lon" : 8.883736055617897
+    },
+    "doctor" : "AA3",
+    "next" : "Client76",
+    "prev" : "Client26",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 14,
+    "srvTime" : 600,
+    "twStart" : 32963,
+    "twFinish" : 55231,
+    "arrivalTime" : 44737
+  }, {
+    "name" : "Client72",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 82.18093170660481,
+      "lon" : 69.8371524784005
+    },
+    "doctor" : "AA3",
+    "next" : "Client21",
+    "prev" : "Client19",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 8,
+    "srvTime" : 600,
+    "twStart" : 31389,
+    "twFinish" : 50870,
+    "arrivalTime" : 38599
+  }, {
+    "name" : "Client73",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 73.63615289198464,
+      "lon" : 44.70766571612222
+    },
+    "doctor" : "AA4",
+    "next" : "Client51",
+    "prev" : "Client98",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 17,
+    "srvTime" : 600,
+    "twStart" : 34618,
+    "twFinish" : 54051,
+    "arrivalTime" : 43881
+  }, {
+    "name" : "Client74",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 35.784361308099555,
+      "lon" : 54.159547018070576
+    },
+    "doctor" : "AA4",
+    "next" : "Client67",
+    "prev" : "Client75",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 11,
+    "srvTime" : 600,
+    "twStart" : 34987,
+    "twFinish" : 56475,
+    "arrivalTime" : 39105
+  }, {
+    "name" : "Client75",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 54.910307021590256,
+      "lon" : 97.7037045354443
+    },
+    "doctor" : "AA4",
+    "next" : "Client74",
+    "prev" : "Client66",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 10,
+    "srvTime" : 600,
+    "twStart" : 32483,
+    "twFinish" : 55413,
+    "arrivalTime" : 37649
+  }, {
+    "name" : "Client76",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 47.77833473469869,
+      "lon" : 6.679109962839236
+    },
+    "doctor" : "AA3",
+    "next" : "Client94",
+    "prev" : "Client71",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 15,
+    "srvTime" : 600,
+    "twStart" : 33781,
+    "twFinish" : 52273,
+    "arrivalTime" : 45442
+  }, {
+    "name" : "Client77",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 95.8710302426255,
+      "lon" : 59.00876204772473
+    },
+    "doctor" : "AA4",
+    "next" : "Client68",
+    "prev" : "Client36",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 22,
+    "srvTime" : 600,
+    "twStart" : 34874,
+    "twFinish" : 57490,
+    "arrivalTime" : 47424
+  }, {
+    "name" : "Client78",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 52.87016263328091,
+      "lon" : 84.63950110562854
+    },
+    "doctor" : "AA4",
+    "next" : "Client82",
+    "prev" : "Client83",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 5,
+    "srvTime" : 600,
+    "twStart" : 30408,
+    "twFinish" : 50980,
+    "arrivalTime" : 34151
+  }, {
+    "name" : "Client79",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 54.26478445329677,
+      "lon" : 39.89136401611473
+    },
+    "doctor" : "AA4",
+    "next" : "Client98",
+    "prev" : "Client60",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 15,
+    "srvTime" : 600,
+    "twStart" : 32539,
+    "twFinish" : 50679,
+    "arrivalTime" : 42308
+  }, {
+    "name" : "Client80",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 2,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 12.756548868899376,
+      "lon" : 31.38360993741619
+    },
+    "doctor" : "AA5",
+    "next" : "Client100",
+    "prev" : "Client87",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 2,
+    "srvTime" : 600,
+    "twStart" : 34447,
+    "twFinish" : 51170,
+    "arrivalTime" : 31097
+  }, {
+    "name" : "Client81",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 66.04245294914897,
+      "lon" : 25.770926505901848
+    },
+    "doctor" : "AA4",
+    "next" : "Client23",
+    "prev" : "Client25",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 25,
+    "srvTime" : 600,
+    "twStart" : 29539,
+    "twFinish" : 54274,
+    "arrivalTime" : 50130
+  }, {
+    "name" : "Client82",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 54.59032704270989,
+      "lon" : 90.21474590831315
+    },
+    "doctor" : "AA4",
+    "next" : "Client63",
+    "prev" : "Client78",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 6,
+    "srvTime" : 600,
+    "twStart" : 31031,
+    "twFinish" : 51961,
+    "arrivalTime" : 34856
+  }, {
+    "name" : "Client83",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 46.18264062166261,
+      "lon" : 70.33100777583213
+    },
+    "doctor" : "AA4",
+    "next" : "Client78",
+    "prev" : "Client54",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 4,
+    "srvTime" : 600,
+    "twStart" : 29550,
+    "twFinish" : 51536,
+    "arrivalTime" : 33267
+  }, {
+    "name" : "Client84",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 91.28923623973138,
+      "lon" : 27.29711029024051
+    },
+    "doctor" : "AA5",
+    "next" : "Client85",
+    "prev" : "Client61",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 19,
+    "srvTime" : 600,
+    "twStart" : 30380,
+    "twFinish" : 57077,
+    "arrivalTime" : 48849
+  }, {
+    "name" : "Client85",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 88.73984517961226,
+      "lon" : 23.867175822417842
+    },
+    "doctor" : "AA5",
+    "next" : "Client50",
+    "prev" : "Client84",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 20,
+    "srvTime" : 600,
+    "twStart" : 28857,
+    "twFinish" : 55902,
+    "arrivalTime" : 49526
+  }, {
+    "name" : "Client86",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 64.70237696115831,
+      "lon" : 70.23621820963977
+    },
+    "doctor" : "AA1",
+    "next" : "Client88",
+    "prev" : "Client34",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 8,
+    "srvTime" : 600,
+    "twStart" : 35164,
+    "twFinish" : 50438,
+    "arrivalTime" : 37881
+  }, {
+    "name" : "Client87",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 19.63308614493244,
+      "lon" : 15.010129784549298
+    },
+    "doctor" : "AA5",
+    "next" : "Client80",
+    "prev" : null,
+    "volumeUndelivered" : 0,
+    "volumePicked" : 1,
+    "srvTime" : 600,
+    "twStart" : 30177,
+    "twFinish" : 56396,
+    "arrivalTime" : 30145
+  }, {
+    "name" : "Client88",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 77.64994386499045,
+      "lon" : 93.97988167665102
+    },
+    "doctor" : "AA1",
+    "next" : "Client22",
+    "prev" : "Client86",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 9,
+    "srvTime" : 600,
+    "twStart" : 34675,
+    "twFinish" : 56087,
+    "arrivalTime" : 38968
+  }, {
+    "name" : "Client89",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 80.6906502729396,
+      "lon" : 29.964689946399815
+    },
+    "doctor" : "AA5",
+    "next" : "Client61",
+    "prev" : "Client57",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 17,
+    "srvTime" : 600,
+    "twStart" : 29761,
+    "twFinish" : 50484,
+    "arrivalTime" : 47452
+  }, {
+    "name" : "Client90",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 5.851878504873886,
+      "lon" : 10.680351398677724
+    },
+    "doctor" : "AA1",
+    "next" : "Stock1:1",
+    "prev" : "Client20",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 18,
+    "srvTime" : 600,
+    "twStart" : 30364,
+    "twFinish" : 50871,
+    "arrivalTime" : 47633
+  }, {
+    "name" : "Client91",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 48.46656175533999,
+      "lon" : 58.40527889972312
+    },
+    "doctor" : "AA1",
+    "next" : "Client41",
+    "prev" : "Client37",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 3,
+    "srvTime" : 600,
+    "twStart" : 32279,
+    "twFinish" : 54902,
+    "arrivalTime" : 33413
+  }, {
+    "name" : "Client92",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 5.761067748183246,
+      "lon" : 45.15829451493979
+    },
+    "doctor" : "AA5",
+    "next" : "Client55",
+    "prev" : "Client100",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 4,
+    "srvTime" : 600,
+    "twStart" : 31974,
+    "twFinish" : 56018,
+    "arrivalTime" : 36079
+  }, {
+    "name" : "Client93",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 2,
+    "location" : {
+      "lat" : 16.344414249188542,
+      "lon" : 0.16851381893884243
+    },
+    "doctor" : "AA1",
+    "next" : "Client20",
+    "prev" : "Client45",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 16,
+    "srvTime" : 600,
+    "twStart" : 28895,
+    "twFinish" : 54159,
+    "arrivalTime" : 46049
+  }, {
+    "name" : "Client94",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 59.31670051585818,
+      "lon" : 2.6091710222048037
+    },
+    "doctor" : "AA3",
+    "next" : "Client99",
+    "prev" : "Client76",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 16,
+    "srvTime" : 600,
+    "twStart" : 31035,
+    "twFinish" : 55416,
+    "arrivalTime" : 46262
+  }, {
+    "name" : "Client95",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 3,
+    "reqPower" : 3,
+    "location" : {
+      "lat" : 93.44416489458972,
+      "lon" : 51.883558487137115
+    },
+    "doctor" : "AA4",
+    "next" : "Client36",
+    "prev" : "Client43",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 20,
+    "srvTime" : 600,
+    "twStart" : 30805,
+    "twFinish" : 51356,
+    "arrivalTime" : 46088
+  }, {
+    "name" : "Client96",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 21.63341821077911,
+      "lon" : 60.19270614486685
+    },
+    "doctor" : "AA5",
+    "next" : "Client70",
+    "prev" : "Client35",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 7,
+    "srvTime" : 600,
+    "twStart" : 34665,
+    "twFinish" : 53108,
+    "arrivalTime" : 38534
+  }, {
+    "name" : "Client97",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 4,
+    "reqPower" : 1,
+    "location" : {
+      "lat" : 98.84754152040853,
+      "lon" : 17.680836399946898
+    },
+    "doctor" : "AA5",
+    "next" : "Client59",
+    "prev" : "Client50",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 22,
+    "srvTime" : 600,
+    "twStart" : 35126,
+    "twFinish" : 57307,
+    "arrivalTime" : 50946
+  }, {
+    "name" : "Client98",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 62.64189606411135,
+      "lon" : 39.1459998128788
+    },
+    "doctor" : "AA4",
+    "next" : "Client73",
+    "prev" : "Client79",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 16,
+    "srvTime" : 600,
+    "twStart" : 34172,
+    "twFinish" : 54261,
+    "arrivalTime" : 43059
+  }, {
+    "name" : "Client99",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 1,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 54.65768629758282,
+      "lon" : 13.119731978714967
+    },
+    "doctor" : "AA3",
+    "next" : "Client53",
+    "prev" : "Client94",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 17,
+    "srvTime" : 600,
+    "twStart" : 30110,
+    "twFinish" : 53898,
+    "arrivalTime" : 47069
+  }, {
+    "name" : "Client100",
+    "visitType" : "PICKUP",
+    "volume" : 1,
+    "reqSpeciality" : 0,
+    "reqPower" : 4,
+    "location" : {
+      "lat" : 18.69642743646711,
+      "lon" : 39.060981676578734
+    },
+    "doctor" : "AA5",
+    "next" : "Client92",
+    "prev" : "Client80",
+    "volumeUndelivered" : 0,
+    "volumePicked" : 3,
+    "srvTime" : 600,
+    "twStart" : 30689,
+    "twFinish" : 50792,
+    "arrivalTime" : 35222
+  }, {
+    "name" : "Stock1:1",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA1",
+    "next" : "Client2",
+    "prev" : "Client90",
+    "volumeUndelivered" : 498,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 48452
+  }, {
+    "name" : "Stock1:2",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA1",
+    "next" : null,
+    "prev" : "Stock1:8",
+    "volumeUndelivered" : 498,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 53753
+  }, {
+    "name" : "Stock1:3",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA3",
+    "next" : null,
+    "prev" : "Stock2:7",
+    "volumeUndelivered" : 450,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 52924
+  }, {
+    "name" : "Stock1:4",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : null,
+    "prev" : "Stock1:5",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 54718
+  }, {
+    "name" : "Stock1:5",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:4",
+    "prev" : "Stock1:6",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 53818
+  }, {
+    "name" : "Stock1:6",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:5",
+    "prev" : "Stock1:7",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 52918
+  }, {
+    "name" : "Stock1:7",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:6",
+    "prev" : "Client69",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 52018
+  }, {
+    "name" : "Stock1:8",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA1",
+    "next" : "Stock1:2",
+    "prev" : "Client4",
+    "volumeUndelivered" : 498,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 52853
+  }, {
+    "name" : "Stock1:9",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock3:8",
+    "prev" : "Stock1:10",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 45556
+  }, {
+    "name" : "Stock1:10",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock1:9",
+    "prev" : "Client7",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 44656
+  }, {
+    "name" : "Stock2:1",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Client3",
+    "prev" : "Stock2:2",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 35100
+  }, {
+    "name" : "Stock2:2",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:1",
+    "prev" : "Stock2:3",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 34200
+  }, {
+    "name" : "Stock2:3",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:2",
+    "prev" : "Stock2:8",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 33300
+  }, {
+    "name" : "Stock2:4",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA4",
+    "next" : null,
+    "prev" : "Client11",
+    "volumeUndelivered" : 449,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 54107
+  }, {
+    "name" : "Stock2:5",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA3",
+    "next" : "Stock2:6",
+    "prev" : "Client52",
+    "volumeUndelivered" : 450,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 50224
+  }, {
+    "name" : "Stock2:6",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA3",
+    "next" : "Stock2:7",
+    "prev" : "Stock2:5",
+    "volumeUndelivered" : 450,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 51124
+  }, {
+    "name" : "Stock2:7",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA3",
+    "next" : "Stock1:3",
+    "prev" : "Stock2:6",
+    "volumeUndelivered" : 450,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 52024
+  }, {
+    "name" : "Stock2:8",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:3",
+    "prev" : "Stock2:9",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 32400
+  }, {
+    "name" : "Stock2:9",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:8",
+    "prev" : "Stock2:10",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 31500
+  }, {
+    "name" : "Stock2:10",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:9",
+    "prev" : "Stock3:1",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 30600
+  }, {
+    "name" : "Stock3:1",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Stock2:10",
+    "prev" : null,
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 29700
+  }, {
+    "name" : "Stock3:2",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:7",
+    "prev" : "Stock3:3",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 34200
+  }, {
+    "name" : "Stock3:3",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:2",
+    "prev" : "Stock3:5",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 33300
+  }, {
+    "name" : "Stock3:4",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA5",
+    "next" : null,
+    "prev" : "Client38",
+    "volumeUndelivered" : 499,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 55223
+  }, {
+    "name" : "Stock3:5",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:3",
+    "prev" : "Stock3:6",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 32400
+  }, {
+    "name" : "Stock3:6",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:5",
+    "prev" : "Stock3:9",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 31500
+  }, {
+    "name" : "Stock3:7",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : null,
+    "prev" : "Stock3:2",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 35100
+  }, {
+    "name" : "Stock3:8",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA2",
+    "next" : "Client9",
+    "prev" : "Stock1:9",
+    "volumeUndelivered" : 522,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 46456
+  }, {
+    "name" : "Stock3:9",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:6",
+    "prev" : "Stock3:10",
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 30600
+  }, {
+    "name" : "Stock3:10",
+    "visitType" : "STOCK",
+    "volume" : 0,
+    "reqSpeciality" : 0,
+    "reqPower" : 0,
+    "location" : {
+      "lat" : 0.0,
+      "lon" : 0.0
+    },
+    "doctor" : "AA6",
+    "next" : "Stock3:9",
+    "prev" : null,
+    "volumeUndelivered" : 467,
+    "volumePicked" : 0,
+    "srvTime" : 900,
+    "twStart" : 21600,
+    "twFinish" : 86400,
+    "arrivalTime" : 29700
+  } ],
+  "locationList" : [ {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 80.15624602813566,
+    "lon" : 15.748941478773048
+  }, {
+    "lat" : 1.5623354254961974,
+    "lon" : 29.36782711888497
+  }, {
+    "lat" : 23.85984597425538,
+    "lon" : 70.18066762155922
+  }, {
+    "lat" : 18.609737436440422,
+    "lon" : 60.32451229445949
+  }, {
+    "lat" : 21.15354047573558,
+    "lon" : 19.612754688934398
+  }, {
+    "lat" : 33.09474294168401,
+    "lon" : 47.19488339741409
+  }, {
+    "lat" : 15.554823743477375,
+    "lon" : 17.609181010657217
+  }, {
+    "lat" : 99.84268647304835,
+    "lon" : 83.61422729324792
+  }, {
+    "lat" : 0.08649748157002479,
+    "lon" : 8.751498415943837
+  }, {
+    "lat" : 98.41198696018371,
+    "lon" : 36.28271521817316
+  }, {
+    "lat" : 87.41149925385179,
+    "lon" : 37.96203940559686
+  }, {
+    "lat" : 96.93321192576646,
+    "lon" : 76.04460277492629
+  }, {
+    "lat" : 2.6300877869783412,
+    "lon" : 54.999258487156034
+  }, {
+    "lat" : 12.243298093239552,
+    "lon" : 35.58486508103638
+  }, {
+    "lat" : 52.25500474429923,
+    "lon" : 33.2658086274861
+  }, {
+    "lat" : 32.33055334306783,
+    "lon" : 25.383873425636207
+  }, {
+    "lat" : 47.880244798300964,
+    "lon" : 47.06998842241682
+  }, {
+    "lat" : 92.1060951283312,
+    "lon" : 64.57076635703167
+  }, {
+    "lat" : 88.05904385016271,
+    "lon" : 76.48118403465021
+  }, {
+    "lat" : 18.517312287666332,
+    "lon" : 8.316122302173412
+  }, {
+    "lat" : 26.906729890170155,
+    "lon" : 33.919934794027775
+  }, {
+    "lat" : 86.0189986608569,
+    "lon" : 78.40456801379415
+  }, {
+    "lat" : 82.94405156293983,
+    "lon" : 31.62323086515315
+  }, {
+    "lat" : 48.41778195292843,
+    "lon" : 28.62793069141416
+  }, {
+    "lat" : 66.69660583439978,
+    "lon" : 34.12569199303081
+  }, {
+    "lat" : 38.105461234318895,
+    "lon" : 1.6395941490104593
+  }, {
+    "lat" : 30.565998450930053,
+    "lon" : 64.89724243723887
+  }, {
+    "lat" : 48.69689216920003,
+    "lon" : 58.91064228863574
+  }, {
+    "lat" : 69.48835188208682,
+    "lon" : 61.27788416663845
+  }, {
+    "lat" : 42.08803708481117,
+    "lon" : 90.42843460656384
+  }, {
+    "lat" : 25.89580412306801,
+    "lon" : 96.85023930449262
+  }, {
+    "lat" : 45.94979438696455,
+    "lon" : 35.77825734095048
+  }, {
+    "lat" : 77.49658995154437,
+    "lon" : 15.390451230010028
+  }, {
+    "lat" : 32.673266902893126,
+    "lon" : 73.24863761811524
+  }, {
+    "lat" : 11.38938154262693,
+    "lon" : 45.53807285787701
+  }, {
+    "lat" : 95.78204863887112,
+    "lon" : 58.60096644160805
+  }, {
+    "lat" : 13.027443528749483,
+    "lon" : 90.32559185149603
+  }, {
+    "lat" : 64.82719176895264,
+    "lon" : 20.144058859359117
+  }, {
+    "lat" : 23.54830548526928,
+    "lon" : 10.708174352836453
+  }, {
+    "lat" : 24.780457929174414,
+    "lon" : 41.75427554639208
+  }, {
+    "lat" : 43.98451363408707,
+    "lon" : 47.23430604188002
+  }, {
+    "lat" : 30.941486576303657,
+    "lon" : 90.48180955148322
+  }, {
+    "lat" : 89.8711133370836,
+    "lon" : 48.997908383276425
+  }, {
+    "lat" : 35.37451205262537,
+    "lon" : 70.38379448274303
+  }, {
+    "lat" : 24.765493462073195,
+    "lon" : 4.012578325811267
+  }, {
+    "lat" : 65.89023156846973,
+    "lon" : 9.224840115677313
+  }, {
+    "lat" : 26.19520917534286,
+    "lon" : 90.14857327072706
+  }, {
+    "lat" : 23.58847437042513,
+    "lon" : 9.685622641439728
+  }, {
+    "lat" : 62.54939710714197,
+    "lon" : 90.77317094804795
+  }, {
+    "lat" : 89.97728995315704,
+    "lon" : 21.720157145516595
+  }, {
+    "lat" : 84.42942403110699,
+    "lon" : 44.23500888061399
+  }, {
+    "lat" : 59.68406758481696,
+    "lon" : 17.70237431914945
+  }, {
+    "lat" : 58.9744075909025,
+    "lon" : 21.333057661890997
+  }, {
+    "lat" : 39.774328100761736,
+    "lon" : 77.0026416597234
+  }, {
+    "lat" : 0.6771749641985902,
+    "lon" : 49.91083198220399
+  }, {
+    "lat" : 81.69380694108985,
+    "lon" : 11.63482061504607
+  }, {
+    "lat" : 77.20637175801401,
+    "lon" : 30.71647351289286
+  }, {
+    "lat" : 36.849447780031255,
+    "lon" : 89.61452153442912
+  }, {
+    "lat" : 93.7502609485131,
+    "lon" : 13.669316288560529
+  }, {
+    "lat" : 51.844947329381256,
+    "lon" : 37.66915905736777
+  }, {
+    "lat" : 84.39790106248586,
+    "lon" : 28.673591793712095
+  }, {
+    "lat" : 44.38645501779547,
+    "lon" : 29.94044372569845
+  }, {
+    "lat" : 64.07328439179254,
+    "lon" : 90.11985980703929
+  }, {
+    "lat" : 25.874065892962538,
+    "lon" : 94.31991617532033
+  }, {
+    "lat" : 19.538098360970125,
+    "lon" : 19.214824444823275
+  }, {
+    "lat" : 61.694740995851745,
+    "lon" : 93.05818726050875
+  }, {
+    "lat" : 42.97869158434007,
+    "lon" : 53.28012071165138
+  }, {
+    "lat" : 85.23224959562685,
+    "lon" : 59.2884614096424
+  }, {
+    "lat" : 36.69291741856927,
+    "lon" : 36.16074962637279
+  }, {
+    "lat" : 6.609798081803808,
+    "lon" : 96.10499985984944
+  }, {
+    "lat" : 42.39244176243043,
+    "lon" : 8.883736055617897
+  }, {
+    "lat" : 82.18093170660481,
+    "lon" : 69.8371524784005
+  }, {
+    "lat" : 73.63615289198464,
+    "lon" : 44.70766571612222
+  }, {
+    "lat" : 35.784361308099555,
+    "lon" : 54.159547018070576
+  }, {
+    "lat" : 54.910307021590256,
+    "lon" : 97.7037045354443
+  }, {
+    "lat" : 47.77833473469869,
+    "lon" : 6.679109962839236
+  }, {
+    "lat" : 95.8710302426255,
+    "lon" : 59.00876204772473
+  }, {
+    "lat" : 52.87016263328091,
+    "lon" : 84.63950110562854
+  }, {
+    "lat" : 54.26478445329677,
+    "lon" : 39.89136401611473
+  }, {
+    "lat" : 12.756548868899376,
+    "lon" : 31.38360993741619
+  }, {
+    "lat" : 66.04245294914897,
+    "lon" : 25.770926505901848
+  }, {
+    "lat" : 54.59032704270989,
+    "lon" : 90.21474590831315
+  }, {
+    "lat" : 46.18264062166261,
+    "lon" : 70.33100777583213
+  }, {
+    "lat" : 91.28923623973138,
+    "lon" : 27.29711029024051
+  }, {
+    "lat" : 88.73984517961226,
+    "lon" : 23.867175822417842
+  }, {
+    "lat" : 64.70237696115831,
+    "lon" : 70.23621820963977
+  }, {
+    "lat" : 19.63308614493244,
+    "lon" : 15.010129784549298
+  }, {
+    "lat" : 77.64994386499045,
+    "lon" : 93.97988167665102
+  }, {
+    "lat" : 80.6906502729396,
+    "lon" : 29.964689946399815
+  }, {
+    "lat" : 5.851878504873886,
+    "lon" : 10.680351398677724
+  }, {
+    "lat" : 48.46656175533999,
+    "lon" : 58.40527889972312
+  }, {
+    "lat" : 5.761067748183246,
+    "lon" : 45.15829451493979
+  }, {
+    "lat" : 16.344414249188542,
+    "lon" : 0.16851381893884243
+  }, {
+    "lat" : 59.31670051585818,
+    "lon" : 2.6091710222048037
+  }, {
+    "lat" : 93.44416489458972,
+    "lon" : 51.883558487137115
+  }, {
+    "lat" : 21.63341821077911,
+    "lon" : 60.19270614486685
+  }, {
+    "lat" : 98.84754152040853,
+    "lon" : 17.680836399946898
+  }, {
+    "lat" : 62.64189606411135,
+    "lon" : 39.1459998128788
+  }, {
+    "lat" : 54.65768629758282,
+    "lon" : 13.119731978714967
+  }, {
+    "lat" : 18.69642743646711,
+    "lon" : 39.060981676578734
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  }, {
+    "lat" : 0.0,
+    "lon" : 0.0
+  } ]
+}
